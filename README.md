@@ -1,7 +1,7 @@
 # About me...
 Hello! I'm David(Tengjun) Gao
 
-- I'm a student majored in Computer Science with math & physics minor. I will be graduating in 2021 summer.
+- I'm a student majored in Computer Science with math & physics minor.
 - Never stop learning! Connect with me using the link below
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7)](https://github.com/anuraghazra/github-readme-stats)
