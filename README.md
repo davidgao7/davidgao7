@@ -1,7 +1,7 @@
 # About me...
 Hello! I'm David(Tengjun) Gao
 
-- I earned my bachelor degree at the [University of Nebraska - Lincoln](https://www.unl.edu/about/) [<img src="huskers.jpg" width=30>](https://en.wiktionary.org/wiki/husker)
+- I earned my bachelor degree at the [University of Nebraska - Lincoln](https://www.unl.edu/about/) [<img src="huskers.jpg" width=30>](https://en.wiktionary.org/wiki/husker "Go huskers!")
 - I'm a student majored in Computer Science with Math & Physics minors
 - Never stop learning! Connect with me using the link below
 
