@@ -22,6 +22,6 @@ Feel free to chat with me!
 
 Happy Coding!
 <!-- ============================================================== -->
-# My recent Blog updates
+### My recent Blog updates
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
