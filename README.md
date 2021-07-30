@@ -28,4 +28,4 @@ Happy Coding!
 ### Most Used Languages
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidgao7&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 ### Waketime
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=davidgao7)](https://github.com/anuraghazra/github-readme-stats)
+[![davidgao's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=davidgao7)](https://github.com/anuraghazra/github-readme-stats)
