@@ -5,7 +5,7 @@ Hello! I'm David(Tengjun) Gao
 - I'm a student majored in Computer Science with Math & Physics minors
 - Never stop learning! Connect with me using the link below
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7)](https://github.com/anuraghazra/github-readme-stats)
+[![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 <!-- ============================================================== -->
 
@@ -29,4 +29,4 @@ Happy Coding!
 ### Most Used Languages
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidgao7&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 ### Waketime
-[![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![davidgao7's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=fb5d34e4-1032-4bbf-8bc1-916db3df93dd)](https://github.com/anuraghazra/github-readme-stats)
