@@ -24,7 +24,8 @@ Happy Coding!
 <!-- ============================================================== -->
 ### My recent Blog updates
 <!-- BLOG-POST-LIST:START -->
-
+- GitHub pages 还没有完全玩懂。。暂时先po这里
+https://github.com/davidgao7/davidgao7.github.io/blob/ccea6fd356c09e3246d084f8929c30f9de6f6aaa/_posts/SVM.md
 <!-- BLOG-POST-LIST:END -->
 ### Most Used Languages
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidgao7&layout=compact)](https://github.com/davidgao7/github-readme-stats)
