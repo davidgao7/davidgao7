@@ -34,4 +34,11 @@ https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM.ipy
 ### Waketime
 
 <!--START_SECTION:waka-->
+```text
+Other      5 hrs 23 mins   ██████████████████▒░░░░░░   72.99 % 
+Markdown   1 hr 42 mins    █████▓░░░░░░░░░░░░░░░░░░░   23.23 % 
+YAML       6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.52 % 
+C++        3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.80 % 
+Python     3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.72 % 
+```
 <!--END_SECTION:waka-->
