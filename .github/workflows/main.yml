@@ -1,4 +1,5 @@
-name: Waka Readme
+- name: Waka - Readme
+  uses: athul/waka-readme@v0.1.5
 
 on:
   workflow_dispatch:
