@@ -32,5 +32,7 @@ https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM.ipy
 ### Contribution
 [![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 ### Waketime
-[![davidgao7's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=davidgao7)](https://github.com/anuraghazra/github-readme-stats)
+<figure>
+<embed src="https://wakatime.com/share/@davidgao7/8f87bca6-5a51-45ab-83f5-4ff44d5d240b.svg"></embed>
+</figure>
 <!-- I did changed wtf its not workin -->
