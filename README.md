@@ -31,7 +31,7 @@ https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM.ipy
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidgao7&layout=compact)](https://github.com/davidgao7/github-readme-stats)
 ### Contribution
 [![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-### Waketime
+### Wakatime
 
 <!--START_SECTION:waka-->
 ```text
