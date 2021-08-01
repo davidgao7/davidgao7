@@ -24,7 +24,7 @@ Happy Coding!
 <!-- ============================================================== -->
 ### My recent Blog updates
 <!-- BLOG-POST-LIST:START -->
-https://github.com/:davidgao7/:davidgao7.github.io/commits.atom
+<!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
 https://github.com/davidgao7/davidgao7.github.io/blob/master/markdown_generator/SVM.ipynb
 <!-- BLOG-POST-LIST:END -->
 ### Most Used Languages
