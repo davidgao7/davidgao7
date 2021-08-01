@@ -27,6 +27,10 @@ Happy Coding!
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
 https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM.ipynb
 <!-- BLOG-POST-LIST:END -->
+#### Reading the Notebook in webpage
+- If you encounter the Jupyter Notebook Rendering Issue
+  * If github in unable to render a Jupyter notebook, copy the link of the notebook and enter into the nbviewer: https://nbviewer.jupyter.org/
+- If some of the colored text not showing, please use [nbviewer](https://nbviewer.jupyter.org/)
 ### Most Used Languages
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidgao7&layout=compact)](https://github.com/davidgao7/github-readme-stats)
 ### Contribution
