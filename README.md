@@ -5,7 +5,7 @@ Hello! I'm David(Tengjun) Gao
 - I'm a student majored in Computer Science with Math & Physics minors
 - Never stop learning! Connect with me using the link below
 
-[![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+<!-- [![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats) -->
 
 <!-- ============================================================== -->
 
