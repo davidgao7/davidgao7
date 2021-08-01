@@ -25,7 +25,7 @@ Happy Coding!
 ### My recent Blog updates
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
-https://github.com/davidgao7/davidgao7.github.io/blob/master/markdown_generator/SVM.ipynb
+https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM.ipynb
 <!-- BLOG-POST-LIST:END -->
 ### Most Used Languages
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidgao7&layout=compact)](https://github.com/davidgao7/github-readme-stats)
