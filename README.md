@@ -37,13 +37,3 @@ https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM.ipy
 [![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 ### Wakatime
 [![davidgao7's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=davidgao7&v=2)](https://github.com/anuraghazra/github-readme-stats)
-
-<!--START_SECTION:waka-->
-```text
-Other      5 hrs 23 mins   ██████████████████▒░░░░░░   72.99 %
-Markdown   1 hr 42 mins    █████▓░░░░░░░░░░░░░░░░░░░   23.23 %
-YAML       6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.52 %
-C++        3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.80 %
-Python     3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.72 %
-```
-<!--END_SECTION:waka-->
