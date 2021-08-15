@@ -25,8 +25,8 @@ Happy Coding!
 ### My recent Blog updates
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
-https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM.ipynb
-https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-8-15.md
+- [SVM Explain](https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM.ipynb)
+- [随笔](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-8-15.md)
 <!-- BLOG-POST-LIST:END -->
 #### Reading the Notebook in webpage
 - If you encounter the Jupyter Notebook Rendering Issue
