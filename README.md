@@ -38,5 +38,5 @@ Happy Coding!
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidgao7&layout=compact)](https://github.com/davidgao7/github-readme-stats)
 ### Contribution
 [![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-### Wakatime
+### Languages I spend time on mostly
 [![davidgao7's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=davidgao7&v=2)](https://github.com/anuraghazra/github-readme-stats)
