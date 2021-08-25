@@ -25,10 +25,10 @@ Happy Coding!
 ### My recent Blog updates
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
-- [SVM Explain](https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM.ipynb)
-- [随笔](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-8-15.md)
-- [二叉树层序遍历](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/binaryTree-Output-Levely.md)
 - Upcoming: [合并k个有序链表](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/merge-k-sorted-lists.md)
+- [二叉树层序遍历](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/binaryTree-Output-Levely.md)
+- [随笔](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-8-15.md)
+- [SVM Explain](https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM.ipynb)
 <!-- BLOG-POST-LIST:END -->
 #### Reading the Notebook in webpage
 - If you encounter the Jupyter Notebook Rendering Issue
