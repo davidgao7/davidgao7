@@ -25,7 +25,7 @@ Happy Coding!
 ### My recent Blog updates
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
-- Upcoming: [Heap and BST](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/heap_bst.md)
+- [Heap and BST](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/heap_bst.md)
 - [合并k个有序链表](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/merge-k-sorted-lists.md)
 - [二叉树层序遍历](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/binaryTree-Output-Levely.md)
 - [随笔](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-8-15.md)
