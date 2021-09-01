@@ -25,6 +25,7 @@ Happy Coding!
 ### My recent Blog updates
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
+- [二叉树两个节点找公共祖先](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/tree-lowest-common-ancestor.md)
 - [最长无重复子数组](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/maxLength.md)
 - [Heap and BST](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/heap_bst.md)
 - [合并k个有序链表](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/merge-k-sorted-lists.md)
