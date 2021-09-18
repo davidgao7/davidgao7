@@ -25,6 +25,7 @@ Happy Coding!
 ### My recent Blog updates
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
+- [连接两岛的最短路径](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-09-15-shortest-bridge.md)
 - [打家劫舍II](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-09-12-rob.md)
 - [跳跃游戏](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-09-12-jump-game.md)
 - [单词的压缩编码](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-09-08-minimum-length-encoding.md)
