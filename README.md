@@ -25,6 +25,7 @@ Happy Coding!
 ### My recent Blog updates
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
+- [寻找第K大](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-09-24-find-kth-largest.md)
 - [统计字典序元音字符串的数目](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-09-21-count-vowel-strings.md)
 - [连接两岛的最短路径](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-09-15-shortest-bridge.md)
 - [打家劫舍II](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-09-12-rob.md)
