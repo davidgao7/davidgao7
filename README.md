@@ -25,7 +25,7 @@ Happy Coding!
 ### My recent Blog updates
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
-- (doing)[复杂链表的复制](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-10-07-copy-random-list.md)
+- [复杂链表的复制](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-10-07-copy-random-list.md)
 - [所有叶子节点到根节点的和](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-10-05-binary-tree-path-sum.md)
 - [python generator 你需要知道的点](https://github.com/davidgao7/PythonLearning/blob/master/generator.py)
 - [寻找第K大](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-09-24-find-kth-largest.md)
