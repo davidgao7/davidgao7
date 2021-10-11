@@ -28,7 +28,6 @@ Happy Coding!
 <p>
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
-- [SVM拉格朗Prim/dual form](https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM%20Lagrange.pdf)
 - [复杂链表的复制](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-10-07-copy-random-list.md)
 - [所有叶子节点到根节点的和](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-10-05-binary-tree-path-sum.md)
 - [python generator 你需要知道的点](https://github.com/davidgao7/PythonLearning/blob/master/generator.py)
@@ -44,6 +43,7 @@ Happy Coding!
 - [合并k个有序链表](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-08-20-merge-k-sorted-lists.md)
 - [二叉树层序遍历](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-08-15-binaryTree-Output-Levely.md)
 - [随笔](https://github.com/davidgao7/davidgao7.github.io/blob/master/_posts/2021-08-15-suibi.md)
+- [SVM拉格朗Prim/dual form](https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM%20Lagrange.pdf)
 - [SVM Explain](https://github.com/davidgao7/machineLearningAlgorithmExplain/blob/master/SVM.ipynb)
 <!-- BLOG-POST-LIST:END -->
 </p>
