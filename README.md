@@ -18,7 +18,7 @@ Feel free to chat with me!
 
 ...And social networking!
 
-[<img src="linkedin.png" width=50/>](https://www.linkedin.com/in/tengjun-david-gao-204144192)
+[<img src="linkedin.png" width=50/>](https://www.linkedin.com/in/tengjun-gao-204144192/)
 
 Happy Coding!
 <!-- ============================================================== -->
