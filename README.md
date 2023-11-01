@@ -62,3 +62,6 @@ Happy Coding!
 [![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 ### Languages I spend time on mostly
 [![davidgao7's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=davidgao7&v=2)](https://github.com/anuraghazra/github-readme-stats)
+
+### My contribution graph
+![snake gif](https://github.com/davidgao7/davidgao7/blob/output/github-contribution-grid-snake.gif)
