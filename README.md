@@ -25,7 +25,7 @@ Happy Coding!
 <!-- ============================================================== -->
 ### Updates
 <details>
-<summary>My recent blog updates</summary>
+<summary>My recent blog updates(click me!)</summary>
 <p>
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
