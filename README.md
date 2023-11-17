@@ -60,10 +60,12 @@ Happy Coding!
 
 ### Most Used Languages
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidgao7&layout=compact)](https://github.com/davidgao7/github-readme-stats)
-### Contribution
+### My Github Stats
 [![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 ### Languages I spend time on mostly
-[![davidgao7's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=davidgao7&v=2)](https://github.com/anuraghazra/github-readme-stats)
+[![davidgao7's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=davidgao7&v=2)](https://github.com/davidgao7/github-readme-stats)
+### My Contribution Graph
+[![David's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=davidgao7&theme=react-dark)](https://github.com/davidgao7/github-readme-activity-graph)
 #### Reading the Notebook in webpage
 - If you encounter the Jupyter Notebook Rendering Issue
   * If github in unable to render a Jupyter notebook, copy the link of the notebook and enter into the nbviewer: https://nbviewer.jupyter.org/
