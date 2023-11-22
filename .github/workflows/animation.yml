@@ -46,13 +46,10 @@ jobs:
 
       # checkout svg to main branch
       - name: create pr release to main
-        runs-on: ubuntu-latest
-        steps:
-          - name: git checkout
-            uses: actions/checkout@v4
-            with:
-              ref: 'output'
-              token: ${{ secrets.PERSONSAL_ACCESS_TOKEN }}
+        uses: actions/checkout@v4
+        with:
+          ref: 'output'
+          token: ${{ secrets.PERSONSAL_ACCESS_TOKEN }}
 
       # https://github.com/marketplace/actions/github-pull-request-action
       - name: create pull request
