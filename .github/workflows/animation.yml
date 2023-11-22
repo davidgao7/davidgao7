@@ -59,6 +59,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Merge with main
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         run: |
           git checkout ${{env.MASTER_BRANCH}}
           git checkout ${{env.MY_BRANCH}} github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
