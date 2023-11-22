@@ -60,8 +60,10 @@ jobs:
 
       - name: Merge with main
         run: |
+          git checkout ${{env.MASTER_BRANCH}}
           git checkout ${{env.MY_BRANCH}} github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
           git config user.name "Automerge Bot"
           git config user.email "bot@example.com"
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          git commit -m "[AUTO] merge output svg to master"
           git push origin ${{env.MASTER_BRANCH}}
