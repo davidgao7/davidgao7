@@ -57,11 +57,12 @@ jobs:
         uses: repo-sync/pull-request@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          destination_branch: ${{ github.event.repository.default_branch }}
-          pr_title: "[Automated] Merge ${{ github.ref_name }} into ${{ github.event.repository.default_branch }}"
+          destination_branch: "main"
+          pr_title: "[Automated] Merge output into main"
           pr_body: "Automated Pull Request for davidgao7 README"
           pr_reviewer: "davidgao7"
           pr_assignee: "davidgao7"
+          pr_label: "update contribution snake game, automated pr"
 
       # https://github.com/marketplace/actions/enable-pull-request-automerge
       - name: enable automerge
