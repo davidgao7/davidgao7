@@ -43,16 +43,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  # merge to main branch
-  merge-branch:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-
-      - name: Merge output -> main
-        uses: devmasx/merge-branch@master
+      # checkout svg to main branch
+      - uses: actions/checkout@v4
         with:
-          type: now
-          target_branch: main
-          message: Merge staging into main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Repository name with owner. For example, actions/checkout
+          # Default: ${{ github.repository }}
+          ref: 'output'
+          sparse-checkout: |
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg
+          sparse-checkout-cone-mode: false
+          
