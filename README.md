@@ -1,6 +1,7 @@
 # About me...
 Hello! I'm David(Tengjun) Gao
 
+- I'm currently studying at [Northeastern University](https://www.northeastern.edu/about/)<img src="NEU.jpg" width="30" height="30"> in Master of Informatics
 - I earned my bachelor degree at the [University of Nebraska - Lincoln](https://www.unl.edu/about/) [<img src="huskers.jpg" width=30>](https://en.wiktionary.org/wiki/husker "Go huskers!")
 - I'm a student majored in Computer Science with Math & Physics minors
 - Never stop learning! Connect with me using the link below
@@ -18,13 +19,13 @@ Feel free to chat with me!
 
 ...And social networking!
 
-[<img src="linkedin.png" width=50/>](https://www.linkedin.com/in/tengjun-david-gao-204144192)
+[<img src="linkedin.png" width=50/>](https://www.linkedin.com/in/tengjun-gao-204144192/)
 
 Happy Coding!
 <!-- ============================================================== -->
 ### Updates
 <details>
-<summary>My recent blog updates</summary>
+<summary>My recent blog updates(click me!)</summary>
 <p>
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
@@ -51,13 +52,21 @@ Happy Coding!
 </p>
 </details>
 
+### My contribution graph
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="./github-contribution-grid-snake.svg">
+</picture>
+
+### Most Used Languages
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidgao7&layout=compact)](https://github.com/davidgao7/github-readme-stats)
+### My Github Stats
+[![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+### Languages I spend time on mostly
+[![davidgao7's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=davidgao7&v=2)](https://github.com/davidgao7/github-readme-stats)
+### My Contribution Graph
+[![David's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=davidgao7&theme=react-dark)](https://github.com/davidgao7/github-readme-activity-graph)
 #### Reading the Notebook in webpage
 - If you encounter the Jupyter Notebook Rendering Issue
   * If github in unable to render a Jupyter notebook, copy the link of the notebook and enter into the nbviewer: https://nbviewer.jupyter.org/
 - If some of the colored text not showing, please use [nbviewer](https://nbviewer.jupyter.org/)
-### Most Used Languages
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidgao7&layout=compact)](https://github.com/davidgao7/github-readme-stats)
-### Contribution
-[![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-### Languages I spend time on mostly
-[![davidgao7's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=davidgao7&v=2)](https://github.com/anuraghazra/github-readme-stats)
