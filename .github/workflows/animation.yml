@@ -58,8 +58,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Merge with main
+      - name: Merge with main (Setup)
         uses: crazy-max/ghaction-github-pages@v3.1.0
+
+      - name: Merge with main (Run)
         run: |
           git checkout ${{env.MASTER_BRANCH}}
           git checkout ${{env.MY_BRANCH}} github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
