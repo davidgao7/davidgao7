@@ -84,7 +84,7 @@ jobs:
       - name: Merge output branch to main
         run: |
           git checkout ${{env.MASTER_BRANCH}}
-          git merge --no-ff ${{env.MY_BRANCH}} -m "Merge output branch to main"
+          git merge -X theirs --no-ff ${{env.MY_BRANCH}} -m "Merge output branch to main"
           git push origin ${{env.MASTER_BRANCH}}
         env:
           MY_BRANCH: output
