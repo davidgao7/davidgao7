@@ -14,6 +14,20 @@ on:
     branches:
     - "main"
 
+env:
+  # replace "github_username" with your GitHub username
+  # replace "github.com/username/repo.git" with your GitHub repo path
+  # do NOT replace ${{secrets.GITHUB_TOKEN}}, GitHub will take care of it
+  MY_REPO: https://github_username:${{secrets.GITHUB_TOKEN}}@github.com/davidgao7/davidgao7.git
+
+  # replace "long-lived_branch_name" with your branch name
+  MY_BRANCH: output
+
+  # replace it with the path to master repo
+  MASTER_REPO: https://github.com/davidgao7/davidgao7.git
+
+  # replace "master" with your master branch name
+  MASTER_BRANCH: main
 
 
 jobs:
@@ -43,3 +57,13 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Merge with main
+        run: |
+          git clone ${{env.MY_REPO}} -b ${{env.MY_BRANCH}} --allow-unrelated-histories tmp
+          cd tmp
+          git config user.name "Automerge Bot"
+          git config user.email "bot@example.com"
+          git config pull.rebase false
+          git pull ${{env.MASTER_REPO}} ${{env.MASTER_BRANCH}} --allow-unrelated-histories
+          git push
