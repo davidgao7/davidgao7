@@ -38,6 +38,9 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
@@ -50,36 +53,32 @@ jobs:
 
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
+
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          domain: github.com
+          keep_history: false
+          allow_empty_commit: true
+          absolute_build_dir: false
+          follow_symlinks: false
+          jekyll: true
+          dry_run: false
+          verbose: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Merge with main (Setup)
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Merge with main (Run)
-        run: |
-          git checkout ${{env.MASTER_BRANCH}}
-          git checkout ${{env.MY_BRANCH}} github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
-          git config user.name "Automerge Bot"
-          git config user.email "bot@example.com"
-          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
-          git commit -m "[AUTO] merge output svg to master"
-          git push origin ${{env.MASTER_BRANCH}}
-        env:
           MY_REPO: https://github.com/davidgao7/davidgao7.git
           MY_BRANCH: output
           MASTER_REPO: https://github.com/davidgao7/davidgao7.git
+          MASTER_BRANCH: main
+
+      - name: Merge output branch to main
+        run: |
+          git checkout ${{env.MASTER_BRANCH}}
+          git merge --no-ff ${{env.MY_BRANCH}} -m "Merge output branch to main"
+          git push origin ${{env.MASTER_BRANCH}}
+        env:
+          MY_BRANCH: output
           MASTER_BRANCH: main
