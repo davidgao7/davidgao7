@@ -45,31 +45,28 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         # checkout svg to main branch
-        on:
-          push:
-            branches:
-              - 'output'
-          jobs:
-            main:
-              name: create pr release to main
-              runs-on: ubuntu-latest
-              steps:
-                - name: git checkout
-                  uses: actions/checkout@v4
-                  with:
-                    token: ${{ secrets.PERSONSAL_ACCESS_TOKEN }}
+        jobs:
+          main:
+            name: create pr release to main
+            runs-on: ubuntu-latest
+            steps:
+              - name: git checkout
+                uses: actions/checkout@v4
+                with:
+                  ref: 'output'
+                  token: ${{ secrets.PERSONSAL_ACCESS_TOKEN }}
 
-                # https://github.com/marketplace/actions/github-pull-request-action
-                - name: create pull request
-                  id: open-pr
-                  uses: repo-sync/pull-request@v2
-                  with:
-                    github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-                    destination_branch: ${{ github.event.repository.default_branch }}
-                    pr_title: "[Automated] Merge ${{ github.ref_name }} into ${{ github.event.repository.default_branch }}"
-                    pr_body: "Automated Pull Request for davidgao7 README"
-                    pr_reviewer: "davidgao7"
-                    pr_assignee: "davidgao7"
+              # https://github.com/marketplace/actions/github-pull-request-action
+              - name: create pull request
+                id: open-pr
+                uses: repo-sync/pull-request@v2
+                with:
+                  github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+                  destination_branch: ${{ github.event.repository.default_branch }}
+                  pr_title: "[Automated] Merge ${{ github.ref_name }} into ${{ github.event.repository.default_branch }}"
+                  pr_body: "Automated Pull Request for davidgao7 README"
+                  pr_reviewer: "davidgao7"
+                  pr_assignee: "davidgao7"
 
       # https://github.com/marketplace/actions/enable-pull-request-automerge
       - name: enable automerge
