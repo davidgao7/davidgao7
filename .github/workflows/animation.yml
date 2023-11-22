@@ -60,10 +60,9 @@ jobs:
 
       - name: Merge with main
         run: |
-          git clone -b ${{env.MY_BRANCH}} ${{env.MY_REPO}} --allow-unrelated-histories tmp
-          cd tmp
+          git checkout master
+          git pull origin master
           git config user.name "Automerge Bot"
           git config user.email "bot@example.com"
-          git config pull.rebase false
-          git pull ${{env.MASTER_REPO}} ${{env.MASTER_BRANCH}} --allow-unrelated-histories
-          git push
+          git merge ${{env.MY_BRANCH}}
+          git push origin master
