@@ -47,10 +47,12 @@ jobs:
   merge-branch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: everlytic/branch-merge@1.1.2
+      - uses: actions/checkout@master
+
+      - name: Merge output -> main
+        uses: devmasx/merge-branch@master
         with:
+          type: now
+          target_branch: main
+          message: Merge staging into main
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_ref: 'output'
-          target_branch: 'main'
-          commit_message_template: '[Automated] update contribution graph : Merged {source_ref} into target {target_branch}'
