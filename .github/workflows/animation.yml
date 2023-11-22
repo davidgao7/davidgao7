@@ -60,9 +60,9 @@ jobs:
 
       - name: Merge with main
         run: |
-          git checkout master
-          git pull origin master
+          git checkout ${{env.MASTER_BRANCH}}
+          git pull origin ${{env.MASTER_BRANCH}}
           git config user.name "Automerge Bot"
           git config user.email "bot@example.com"
           git merge ${{env.MY_BRANCH}}
-          git push origin master
+          git push origin ${{env.MASTER_BRANCH}}
