@@ -83,6 +83,8 @@ jobs:
 
       - name: Merge output branch to main
         run: |
+          git config --global user.email "gao.ten@northeastern.edu"
+          git config --global user.name "David Gao"
           git checkout ${{env.MASTER_BRANCH}}
           git merge --allow-unrelated-histories --no-ff ${{env.MY_BRANCH}} -m "Merge output branch to main"
           git push origin ${{env.MASTER_BRANCH}}
