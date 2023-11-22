@@ -58,6 +58,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
       - name: Merge with main (Setup)
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
@@ -75,3 +78,8 @@ jobs:
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
           git commit -m "[AUTO] merge output svg to master"
           git push origin ${{env.MASTER_BRANCH}}
+        env:
+          MY_REPO: https://github.com/davidgao7/davidgao7.git
+          MY_BRANCH: output
+          MASTER_REPO: https://github.com/davidgao7/davidgao7.git
+          MASTER_BRANCH: main
