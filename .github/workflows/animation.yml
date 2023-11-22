@@ -60,7 +60,7 @@ jobs:
 
       - name: Merge with main
         run: |
-          git clone ${{env.MY_REPO}} -b ${{env.MY_BRANCH}} --allow-unrelated-histories tmp
+          git clone -b ${{env.MY_BRANCH}} ${{env.MY_REPO}} --allow-unrelated-histories tmp
           cd tmp
           git config user.name "Automerge Bot"
           git config user.email "bot@example.com"
