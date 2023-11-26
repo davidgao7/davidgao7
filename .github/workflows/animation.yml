@@ -83,16 +83,26 @@ jobs:
 
       - name: Merge output branch to main
         run: |
+          echo '\n==============config user info===============\n'
           git config --global user.email "gao.ten@northeastern.edu"
           git config --global user.name "David Gao"
+          echo '\n==============config user info===============\n'
+          echo '\n==============add new file==================\n'
           git add .
           git commit -m 'commit updated changes'
+          echo '\n==============add new file==================\n'
+          echo '\n===============checkout master branch==========\n'
           git checkout ${{env.MASTER_BRANCH}}
+          echo '\n==============merge new svg file from output branch========\n'
           git merge --allow-unrelated-histories --no-ff -X theirs ${{env.MY_BRANCH}} -m "Merge output branch to main"
           echo current branch: '\n' $(git branch -vva)
-          git pull origin main
+          echo '\n==============pull changes from origin main========\n'
+          git pull origin ${{env.MASTER_BRANCH}}
+          echo '\n==============add new files from origin main========\n'
           git add .
+          echo '\n==============commit new files========\n'
           git commit -m 'overwrite using the latest commit graph'
+          echo '\n========start push================\n'
           git push origin ${{env.MASTER_BRANCH}}
         env:
           MY_BRANCH: output
