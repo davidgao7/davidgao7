@@ -85,6 +85,8 @@ jobs:
         run: |
           git config --global user.email "gao.ten@northeastern.edu"
           git config --global user.name "David Gao"
+          git add .
+          git commit -m 'commit updated changes'
           git checkout ${{env.MASTER_BRANCH}}
           git merge --allow-unrelated-histories --no-ff -X theirs ${{env.MY_BRANCH}} -m "Merge output branch to main"
           git pull
