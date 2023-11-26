@@ -89,7 +89,7 @@ jobs:
           git commit -m 'commit updated changes'
           git checkout ${{env.MASTER_BRANCH}}
           git merge --allow-unrelated-histories --no-ff -X theirs ${{env.MY_BRANCH}} -m "Merge output branch to main"
-          echo 'current branch:\n $(git branch -vva)'
+          echo current branch: '\n' $(git branch -vva)
           git pull
           git add .
           git commit -m 'overwrite using the latest commit graph'
