@@ -100,8 +100,6 @@ jobs:
           git pull origin ${{env.MASTER_BRANCH}}
           echo '\n==============add new files from origin main========\n'
           git add .
-          echo '\n==============commit new files========\n'
-          git commit -m 'overwrite using the latest commit graph'
           echo '\n========start push================\n'
           git push origin ${{env.MASTER_BRANCH}}
         env:
