@@ -70,3 +70,5 @@ Happy Coding!
 - If you encounter the Jupyter Notebook Rendering Issue
   * If github in unable to render a Jupyter notebook, copy the link of the notebook and enter into the nbviewer: https://nbviewer.jupyter.org/
 - If some of the colored text not showing, please use [nbviewer](https://nbviewer.jupyter.org/)
+
+<p align="left"><img src="https://komarev.com/ghpvc/?username=davidgao7&label=Profile%20views&color=0e75b6&style=flat" alt="elijahmanor" /></p>
