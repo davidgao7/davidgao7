@@ -76,7 +76,7 @@ Happy Coding!
 <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
 </p>
 
-### My Contribution Graph
+### My Activity Graph
 [![David's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=davidgao7&theme=react-dark)](https://github.com/davidgao7/github-readme-activity-graph)
 #### Reading the Notebook in webpage
 - If you encounter the Jupyter Notebook Rendering Issue
