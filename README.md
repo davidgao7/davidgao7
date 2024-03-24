@@ -5,6 +5,7 @@ Hello! I'm David(Tengjun) Gao
 - I earned my bachelor degree at the [University of Nebraska - Lincoln](https://www.unl.edu/about/) [<img src="huskers.jpg" width=30>](https://en.wiktionary.org/wiki/husker "Go huskers!")
 - I'm a student majored in Computer Science with Math & Physics minors
 - Never stop learning! Connect with me using the link below
+- VIM ENJOYER
 
 <!-- [![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats) -->
 
