@@ -1,11 +1,11 @@
 # About me...
 Hello! I'm David(Tengjun) Gao
 
-- I'm currently studying at [Northeastern University](https://www.northeastern.edu/about/)<img src="NEU.jpg" width="30" height="30"> in Master of Informatics
-- I earned my bachelor degree at the [University of Nebraska - Lincoln](https://www.unl.edu/about/) [<img src="huskers.jpg" width=30>](https://en.wiktionary.org/wiki/husker "Go huskers!")
-- I'm a student majored in Computer Science with Math & Physics minors
-- Never stop learning! Connect with me using the link below
+- I like to do things to prove I can do it. (Reason to learn VIM btw)
+- I'm currently studying at [Northeastern University](https://www.northeastern.edu/about/)<img src="NEU.jpg" width="30" height="30">; Master of Professional Studies in Informatics
+- I earned my BSCS degree at the [University of Nebraska - Lincoln](https://www.unl.edu/about/) [<img src="huskers.jpg" width=30>](https://en.wiktionary.org/wiki/husker "Go huskers!") with minors in Math and Physics.
 - VIM ENJOYER
+- Never stop learning! Connect with me using the link below:
 
 <!-- [![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats) -->
 
