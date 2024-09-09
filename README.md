@@ -80,6 +80,7 @@ Happy Coding!
 <img alt="git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
 <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
 <a href="https://www.langchain.com/"><img alt="Langchain" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.-6d0YMIf57AIz8LPzcUuFAHaG9%26pid%3DApi&f=1&ipt=6f5c2173b65beefd93b36a4f17a2a703023baa418649f8e3955568c76e9d5a1f&ipo=images" width="50" height="50"/>
+<a href="https://nixos.org/"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.b0INAa0DATcFYSFQvi0AuAHaHa%26pid%3DApi&f=1&ipt=9f038207101c6e488d698c047691e53bf7f0049b3e23b3ceb1401c2acaa3bd15&ipo=images" width="50" height="50"/>
 </p>
 
 ### My Activity Graph
