@@ -1,4 +1,5 @@
-# About me...
+# About me
+
 Hello! I'm David(Tengjun) Gao
 
 - I like to do things to prove I can do it. (Reason to learn VIM btw)
@@ -26,6 +27,7 @@ Feel free to chat with me!
 Happy Coding!
 <!-- ============================================================== -->
 ### Updates
+
 <details>
 <summary>My recent blog updates</summary>
 <p>
@@ -55,18 +57,26 @@ Happy Coding!
 </details>
 
 ### My contribution graph
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg">
   <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="./github-contribution-grid-snake.svg">
 </picture>
 
 ### Most Used Languages
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidgao7&layout=compact)](https://github.com/davidgao7/github-readme-stats)
+
 ### My Github Stats
+
 [![davidgao7's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidgao7&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+
 ### Languages I spend time on mostly
+
 [![davidgao7's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=davidgao7&v=2)](https://github.com/davidgao7/github-readme-stats)
+
 ### Other Interesting Languages/Tools I've learned which have not shown
+
 <p align="left">
 <a href="https://www.haskell.org/"><img src="haskell-logo.svg" alt="haskell" width="60" height="60"/></a>
 <a href="https://www.swi-prolog.org/"><img src="swipl.png" alt="haskell" width="60" height="60"/></a>
@@ -82,13 +92,17 @@ Happy Coding!
 <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
 <a href="https://www.langchain.com/"><img alt="Langchain" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.-6d0YMIf57AIz8LPzcUuFAHaG9%26pid%3DApi&f=1&ipt=6f5c2173b65beefd93b36a4f17a2a703023baa418649f8e3955568c76e9d5a1f&ipo=images" width="50" height="50"/>
 <a href="https://nixos.org/"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.b0INAa0DATcFYSFQvi0AuAHaHa%26pid%3DApi&f=1&ipt=9f038207101c6e488d698c047691e53bf7f0049b3e23b3ceb1401c2acaa3bd15&ipo=images" width="50" height="50"/>
+<a href="https://obsidian.md/"><img src="obsidian-icon.svg" width="50" height="50"/>
 </p>
 
 ### My Activity Graph
+
 [![David's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=davidgao7&theme=react-dark)](https://github.com/davidgao7/github-readme-activity-graph)
+
 #### Reading the Notebook in webpage
+
 - If you encounter the Jupyter Notebook Rendering Issue
-  * If github in unable to render a Jupyter notebook, copy the link of the notebook and enter into the nbviewer: https://nbviewer.jupyter.org/
+  - If github in unable to render a Jupyter notebook, copy the link of the notebook and enter into the nbviewer: <https://nbviewer.jupyter.org/>
 - If some of the colored text not showing, please use [nbviewer](https://nbviewer.jupyter.org/)
 
 <p align="left"><img src="https://komarev.com/ghpvc/?username=davidgao7&label=Profile%20views&color=0e75b6&style=flat" alt="elijahmanor" /></p>
