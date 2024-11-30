@@ -27,7 +27,7 @@ Feel free to chat with me!
 Happy Coding!
 <!-- ============================================================== -->
 ### Updates
-
+Learning zig to understand more low level...
 <details>
 <summary>My recent blog updates</summary>
 <p>
