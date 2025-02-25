@@ -16,7 +16,7 @@ Hello! I'm David(Tengjun) Gao
 Feel free to chat with me!
 
 [<img src="QQmail.jpg" width=50/>](mailto:582435572@qq.com?subject=[GitHub])
-[<img src="UNL.png" width=50/>](mailto:david.gao313@huskers.unl.edu?subject=[GitHub])
+[<img src="NEU.jpg" width=50/>](mailto:gao.ten@northeastern.edu?subject=[GitHub])
 [<img src="gmail.png" width=50/>](mailto:jimgao0606@gmail.com?subject=[GitHub])
 [<img src="IMG_1421.GIF" width="50" height="50"/>](https://youtu.be/j__VYXZ-5Cw?si=M8hpVk0WATAjd2-7)
 
