@@ -2,7 +2,7 @@
 
 Hello! I'm David(Tengjun) Gao
 
-- I like to do things to prove I can do it. (Reason to learn VIM btw)
+- I like to do things to prove I can do it. (Reason to learn VIM motion btw)
 - I'm currently studying at [Northeastern University](https://www.northeastern.edu/about/)<img src="NEU.jpg" width="30" height="30">; Master of Professional Studies in Informatics, Cloud Computing Concentration
 - I used to work as a Machine Learning Engineer, I help our company to establish their first MLOps system by utilizing Kubernetes components. I also learned other tools like Dolphine Scheduler
 - I earned my BSCS degree at the [University of Nebraska - Lincoln](https://www.unl.edu/about/) [<img src="huskers.jpg" width=30>](https://en.wiktionary.org/wiki/husker "Go huskers!") with minors in Math and Physics
