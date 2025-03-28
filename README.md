@@ -29,6 +29,7 @@ Happy Coding!
 ### Updates
 
 Learning zig to understand more low level...
+For more recent blogs you can check out [ here ](https://davidgao7.github.io/).
 <details>
 <summary>My recent blog updates</summary>
 <p>
