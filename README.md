@@ -23,15 +23,17 @@ Feel free to chat with me!
 ...And social networking!
 
 [<img src="linkedin.png" width=50/>](https://www.linkedin.com/in/tengjun-gao-hello-world/)
+[<img src="x.png" width=50/>](https://x.com/AiiGen71976j)
 
 Happy Coding!
 <!-- ============================================================== -->
 ### Updates
 
 Learning zig to understand more low level...
-For more recent blogs you can check out [ here ](https://davidgao7.github.io/).
+
+For more recent blogs you can check out [ here ](https://davidgao7.github.io/)
 <details>
-<summary>My recent blog updates</summary>
+<summary>My blog (outdated) </summary>
 <p>
 <!-- BLOG-POST-LIST:START -->
 <!-- https://github.com/:davidgao7/:davidgao7.github.io/commits.atom ITS NOT WORKIN-->
