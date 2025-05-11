@@ -27,7 +27,7 @@ Feel free to chat with me!
 
 Happy Coding!
 <!-- ============================================================== -->
-### Latest Posts
+### Latest Blog Posts
 <!-- feed start -->
 <!-- feed end -->
 

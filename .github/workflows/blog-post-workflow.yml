@@ -12,9 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate GitHub Metrics for Blog
-      - uses: actions/checkout@v4
-      - uses: sarisia/actions-readme-feed@v1
+        uses: actions/checkout@v4
+      - name: Fetch RSS Feed
+        uses: sarisia/actions-readme-feed@v1
         with:
           url: 'https://davidgao7.github.io/index.xml'
           file: 'README.md'
-      - uses: sarisia/actions-commit@master
+          max_entry: 5
+          format: '- ${monthshort} ${02day} - [${title}](${url})'
+      - name: Commit Changes
+        uses: sarisia/actions-commit@master
