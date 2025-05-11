@@ -12,14 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate GitHub Metrics for Blog
-        uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
+      - uses: sarisia/actions-readme-feed@v1
         with:
-          token: ${{ secrets.PERSONAL_BLOG_METRICS_TOKEN }}
-          filename: metrics.svg
-          base: ""
-          plugin_rss: yes
-          plugin_rss_source: https://davidgao7.github.io/index.xml
-          plugin_rss_limit: 5
-          plugin_rss_display: list
-          plugin_rss_name: title
-          plugin_rss_description: link
+          url: 'https://davidgao7.github.io/index.xml'
+          file: 'README.md'
+      - uses: sarisia/actions-commit@master

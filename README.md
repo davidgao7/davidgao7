@@ -27,11 +27,9 @@ Feel free to chat with me!
 
 Happy Coding!
 <!-- ============================================================== -->
-### Updates
-
-Learning zig to understand more low level...
-
-![My Blog Feed](./metrics.svg)
+### Latest Posts
+<!-- feed start -->
+<!-- feed end -->
 
 ### My contribution graph
 
