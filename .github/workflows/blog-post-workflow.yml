@@ -1,14 +1,25 @@
-name: Latest blog post workflow
+name: Update Blog Feed From Hugo
 on:
   schedule: # Run workflow automatically
-    - cron: '0 * * * *' # Runs every hour, on the hour
+    - cron: '0 0 * * *' # Run once per day
   workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
+  push:
+    branches:
+      - main # run on main branch push
 jobs:
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - name: Generate GitHub Metrics for Blog
+        uses: lowlighter/metrics@latest
         with:
-          feed_list: #"https://github.com/:davidgao7.atom"
+          token: ${{ secrets.PERSONAL_BLOG_METRICS_TOKEN }}
+          filename: metrics.svg
+          base: ""
+          plugin_rss: yes
+          plugin_rss_source: https://davidgao7.github.io/index.xml
+          plugin_rss_limit: 5
+          plugin_rss_display: list
+          plugin_rss_name: title
+          plugin_rss_description: link
