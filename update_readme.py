@@ -68,11 +68,7 @@ def generate_blog_posts_markdown(soup, latest_n = 10):
     # Extract just the markdown strings
     posts_markdown_lines = [post[1] for post in latest_posts_sorted]
 
-    print("====posts_markdown====")
-    print(posts_markdown_lines)
-    print("====posts_markdown====")
-
-    return "\n".join(posts_markdown_lines)
+    return "\n\n".join(posts_markdown_lines)
 
 def update_readme(new_content):
     """Updates the README.md file with the new blog post content."""
