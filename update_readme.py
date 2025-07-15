@@ -67,6 +67,10 @@ def generate_blog_posts_markdown(soup, latest_n = 10):
         post_markdown = heapq.heappop(posts_markdown)
         posts_markdown.append(post_markdown)
 
+    print("====posts_markdown====")
+    print(posts_markdown)
+    print("====posts_markdown====")
+
     return "\n".join(posts_markdown)
 
 def update_readme(new_content):
