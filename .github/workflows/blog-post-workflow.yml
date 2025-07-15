@@ -19,7 +19,6 @@ jobs:
           url: 'https://davidgao7.github.io/index.xml'
           file: 'README.md'
           max_entry: 5
-          format: '- ${monthshort} ${02day} - [${title}](${link})'
       - run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
