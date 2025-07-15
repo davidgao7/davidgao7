@@ -40,6 +40,7 @@ def generate_blog_posts_markdown(soup):
 
         title = title_tag.text if title_tag else "No Title"
         link = link_tag.text if link_tag else "#"
+        link = "https://" + link
         print("==========link========")
         print(link)
         print("==========link========")
