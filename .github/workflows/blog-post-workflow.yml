@@ -1,21 +1,35 @@
-name: Update Blog Feed From Hugo
+name: Update Blog Posts in README
 on:
-  schedule: # Run workflow automatically
-    - cron: '0 0 * * *' # Run once per day
-  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
   push:
     branches:
-      - main # run on main branch push
+      - main # Runs on pushes to the main branch
 permissions:
-  contents: write # To write the generated contents to the readme
+  contents: write # Required to commit changes to README.md
 jobs:
-  update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+  update-readme-blog-posts:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate GitHub Metrics for Blog
+      - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Pull personal blog post to readme
-        uses: gautamkrishnar/blog-post-workflow@v1
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          feed_list: "https://davidgao7.github.io/index.xml" # comma separate
+          python-version: '3.x' # Use any Python 3 version
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 # BeautifulSoup4 is good for XML parsing too
+      - name: Run script to update README
+        run: python update_readme.py
+        env:
+          BLOG_FEED_URL: "https://davidgao7.github.io/index.xml" # Your blog's RSS feed URL
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update latest blog posts in README" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
