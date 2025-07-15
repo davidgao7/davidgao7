@@ -29,11 +29,11 @@ Happy Coding!
 <!-- ============================================================== -->
 ### Latest Blog Posts
 <!-- feed start -->
+- Jul 14 - [Install Arch Linux Btw](http://localhost:1313/posts/install-arch-linux-btw/)
 - May 30 - [Vllm V1 Whisper Transcription](http://localhost:1313/posts/vllm-v1-whisper-transcription/)
 - May 10 - [Wrong Vllm Production Stack Setup](http://localhost:1313/posts/wrong-vllm-production-stack-setup/)
 - May 03 - [Palindrome Linked List](http://localhost:1313/posts/palindrome-linked-list/)
 - Apr 24 - [Training Resnet Using Pytorch](http://localhost:1313/posts/training-resnet-using-pytorch/)
-- Apr 23 - [Finetune LLM Using Pytorch](http://localhost:1313/posts/finetune-llm-using-pytorch/)
 <!-- feed end -->
 
 ### My contribution graph
