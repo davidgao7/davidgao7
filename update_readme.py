@@ -54,24 +54,25 @@ def generate_blog_posts_markdown(soup, latest_n = 10):
             # RSS dates are often in RFC 822 format (e.g., 'Mon, 14 Jul 2025 13:59:09 +0800')
             dt_object = datetime.strptime(pub_date_str, '%a, %d %b %Y %H:%M:%S %z')
             formatted_datetime = dt_object.strftime('%Y-%m-%d %H:%M:%S')
+            timestamp = dt_object.timestamp()
         except ValueError:
             # Fallback for other date formats or if parsing fails
             print(f"Warning: Could not parse date format '{pub_date_str}'. Using raw string.")
             # formatted_datetime = pub_date_str.split(' ')[0] if ' ' in pub_date_str else pub_date_str # Attempt to get just date if possible
             continue
 
-        heapq.heappush(posts_markdown, f"{formatted_datetime} [{title}]({link})\n")
+        markdown_line = f"{formatted_datetime} [{title}]({link})"
+        posts_markdown.append((timestamp, markdown_line))
 
-    while len(posts_markdown) < latest_n:
-        # New format: `date time [title](link)`
-        post_markdown = heapq.heappop(posts_markdown)
-        posts_markdown.append(post_markdown)
+    latest_posts_sorted = heapq.nlargest(latest_n, posts_markdown, key=lambda x: x[0])
+    # Extract just the markdown strings
+    posts_markdown_lines = [post[1] for post in latest_posts_sorted]
 
     print("====posts_markdown====")
-    print(posts_markdown)
+    print(posts_markdown_lines)
     print("====posts_markdown====")
 
-    return "\n".join(posts_markdown)
+    return "\n".join(posts_markdown_lines)
 
 def update_readme(new_content):
     """Updates the README.md file with the new blog post content."""
