@@ -30,6 +30,11 @@ Happy Coding!
 ### Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Install Arch Linux Btw](davidgao7.github.io/posts/install-arch-linux-btw/)
+- [Vllm V1 Whisper Transcription](davidgao7.github.io/posts/vllm-v1-whisper-transcription/)
+- [Wrong Vllm Production Stack Setup](davidgao7.github.io/posts/wrong-vllm-production-stack-setup/)
+- [Palindrome Linked List](davidgao7.github.io/posts/palindrome-linked-list/)
+- [Training Resnet Using Pytorch](davidgao7.github.io/posts/training-resnet-using-pytorch/)
 <!-- BLOG-POST-LIST:END -->
 
 ### My contribution graph
