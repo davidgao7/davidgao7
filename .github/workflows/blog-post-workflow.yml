@@ -6,8 +6,8 @@ on:
   push:
     branches:
       - main # run on main branch push
-  permissions:
-    contents: write # To write the generated contents to the readme
+permissions:
+  contents: write # To write the generated contents to the readme
 jobs:
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
