@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - main # run on main branch push
+  permissions:
+    contents: write # To write the generated contents to the readme
 jobs:
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
@@ -13,15 +15,7 @@ jobs:
     steps:
       - name: Generate GitHub Metrics for Blog
         uses: actions/checkout@v4
-      - name: Fetch RSS Feed
-        uses: sarisia/actions-readme-feed@v1
+      - name: Pull personal blog post to readme
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          url: 'https://davidgao7.github.io/index.xml'
-          file: 'README.md'
-          max_entry: 5
-      - run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add .
-          git commit -m "docs: update feed" || true
-          git push
+          feed_list: "https://davidgao7.github.io/index.xml" # comma separate

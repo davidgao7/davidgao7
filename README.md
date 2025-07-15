@@ -28,13 +28,9 @@ Feel free to chat with me!
 Happy Coding!
 <!-- ============================================================== -->
 ### Latest Blog Posts
-<!-- feed start -->
-- Jul 14 - [Install Arch Linux Btw]()
-- May 30 - [Vllm V1 Whisper Transcription]()
-- May 10 - [Wrong Vllm Production Stack Setup]()
-- May 03 - [Palindrome Linked List]()
-- Apr 24 - [Training Resnet Using Pytorch]()
-<!-- feed end -->
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 ### My contribution graph
 
