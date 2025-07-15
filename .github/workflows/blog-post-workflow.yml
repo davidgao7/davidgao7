@@ -21,8 +21,8 @@ jobs:
           max_entry: 5
           format: '- ${monthshort} ${02day} - [${title}](${url})'
       - run: |
-        git config --global user.name "${{ github.actor }}"
-        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-        git add .
-        git commit -m "docs: update feed" || true
-        git push
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git add .
+          git commit -m "docs: update feed" || true
+          git push
