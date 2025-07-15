@@ -28,9 +28,9 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git pull --rebase origin main
-          git add README.md
-          git commit -m "Update latest blog posts in README" || echo "No changes to commit"
+          git add README.md # Stage changes made by the Python script
+          git commit -m "Draft: Update README with blog posts" || echo "No changes to commit (draft)" # Commit the local changes
+          git pull --rebase origin main # Now pull and rebase
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
