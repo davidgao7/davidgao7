@@ -31,12 +31,18 @@ def generate_blog_posts_markdown(soup):
     posts_markdown = []
     # Find all 'item' tags in the RSS feed
     for item in soup.find_all('item'):
+        print("=======item=======")
+        print(item)
+        print("=======item=======")
         title_tag = item.find('title')
         link_tag = item.find('link')
         pubdate_tag = item.find('pubDate')
 
         title = title_tag.text if title_tag else "No Title"
         link = link_tag.text if link_tag else "#"
+        print("==========link========")
+        print(link)
+        print("==========link========")
         pub_date_str = pubdate_tag.text if pubdate_tag else ""
 
         # Format the date and time as 'YYYY-MM-DD HH:MM:SS'
@@ -48,7 +54,8 @@ def generate_blog_posts_markdown(soup):
         except ValueError:
             # Fallback for other date formats or if parsing fails
             print(f"Warning: Could not parse date format '{pub_date_str}'. Using raw string.")
-            formatted_datetime = pub_date_str.split(' ')[0] if ' ' in pub_date_str else pub_date_str # Attempt to get just date if possible
+            # formatted_datetime = pub_date_str.split(' ')[0] if ' ' in pub_date_str else pub_date_str # Attempt to get just date if possible
+            continue
 
         # New format: `date time [title](link)`
         posts_markdown.append(f"{formatted_datetime} [{title}]({link})\n")
