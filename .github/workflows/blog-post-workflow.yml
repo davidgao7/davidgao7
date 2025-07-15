@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: '3.x' # Use any Python 3 version
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 # BeautifulSoup4 is good for XML parsing too
+        run: pip install requests beautifulsoup4 lxml # Add lxml here
       - name: Run script to update README
         run: python update_readme.py
         env:
