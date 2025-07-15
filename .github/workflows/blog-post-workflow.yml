@@ -19,7 +19,7 @@ jobs:
           url: 'https://davidgao7.github.io/index.xml'
           file: 'README.md'
           max_entry: 5
-          format: '- ${monthshort} ${02day} - [${title}](${url})'
+          format: '- ${monthshort} ${02day} - [${title}]($(echo "$url" | sed "s|https://github.com/davidgao7/davidgao7/blob/main/|https://|"))'
       - run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
