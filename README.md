@@ -29,11 +29,6 @@ Happy Coding!
 <!-- ============================================================== -->
 ### Latest Blog Posts
 <!-- feed start -->
-- Jul 14 - [Install Arch Linux Btw][ $(echo "$url" | sed "s|https://github.com/davidgao7/davidgao7/blob/main/|https://|") ]
-- May 30 - [Vllm V1 Whisper Transcription][ $(echo "$url" | sed "s|https://github.com/davidgao7/davidgao7/blob/main/|https://|") ]
-- May 10 - [Wrong Vllm Production Stack Setup][ $(echo "$url" | sed "s|https://github.com/davidgao7/davidgao7/blob/main/|https://|") ]
-- May 03 - [Palindrome Linked List][ $(echo "$url" | sed "s|https://github.com/davidgao7/davidgao7/blob/main/|https://|") ]
-- Apr 24 - [Training Resnet Using Pytorch][ $(echo "$url" | sed "s|https://github.com/davidgao7/davidgao7/blob/main/|https://|") ]
 <!-- feed end -->
 
 ### My contribution graph
