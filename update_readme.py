@@ -22,13 +22,15 @@ def fetch_and_parse_feed(url):
         print(f"Error fetching feed from {url}: {e}")
         return None
 
-def generate_blog_posts_markdown(soup):
+def generate_blog_posts_markdown(soup, latest_n = 10):
     """Generates Markdown for the latest blog posts with the requested format."""
     if not soup:
         # Changed to return a placeholder message if feed fetching fails
         return "" # Changed from empty string to a message for clarity
 
     posts_markdown = []
+    import heapq
+
     # Find all 'item' tags in the RSS feed
     for item in soup.find_all('item'):
         print("=======item=======")
@@ -58,8 +60,12 @@ def generate_blog_posts_markdown(soup):
             # formatted_datetime = pub_date_str.split(' ')[0] if ' ' in pub_date_str else pub_date_str # Attempt to get just date if possible
             continue
 
+        heapq.heappush(posts_markdown, f"{formatted_datetime} [{title}]({link})\n")
+
+    while len(posts_markdown) < latest_n:
         # New format: `date time [title](link)`
-        posts_markdown.append(f"{formatted_datetime} [{title}]({link})\n")
+        post_markdown = heapq.heappop(posts_markdown)
+        posts_markdown.append(post_markdown)
 
     return "\n".join(posts_markdown)
 
