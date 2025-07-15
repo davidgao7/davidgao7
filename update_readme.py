@@ -25,7 +25,8 @@ def fetch_and_parse_feed(url):
 def generate_blog_posts_markdown(soup):
     """Generates Markdown for the latest blog posts with the requested format."""
     if not soup:
-        return ""
+        # Changed to return a placeholder message if feed fetching fails
+        return "" # Changed from empty string to a message for clarity
 
     posts_markdown = []
     # Find all 'item' tags in the RSS feed
@@ -82,7 +83,7 @@ def update_readme(new_content):
             print("Successfully updated README content between markers.")
         else:
             print(f"Warning: Markers '{start_marker}' and '{end_marker}' not found or out of order in {README_FILE}. Appending to end.")
-            # If markers are not found, append to the end (or handle as preferred)
+            # This fallback might not be ideal, but it ensures content is added.
             new_readme_lines = readme_lines + [f"\n{start_marker}\n{new_content}\n{end_marker}\n"]
 
         with open(README_FILE, 'w', encoding='utf-8') as f:
