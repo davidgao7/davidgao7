@@ -1,53 +1,40 @@
 name: generate animation
-
-
 on:
   # run automatically every 24 hours
   schedule:
     - cron: "0 */24 * * *"
-
   # allows to manually run the job at any time
   workflow_dispatch:
-
   # run on every push on the master branch
   push:
     branches:
-    - "main"
-
+      - "main"
 env:
   # replace "github_username" with your GitHub username
   # replace "github.com/username/repo.git" with your GitHub repo path
   # do NOT replace ${{secrets.GITHUB_TOKEN}}, GitHub will take care of it
   MY_REPO: https://github_username:${{secrets.GITHUB_TOKEN}}@github.com/davidgao7/davidgao7.git
-
   # replace "long-lived_branch_name" with your branch name
   MY_BRANCH: output
-
   # replace it with the path to master repo
   MASTER_REPO: https://github.com/davidgao7/davidgao7.git
-
   # replace "master" with your master branch name
   MASTER_BRANCH: main
-
-
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-
       - name: Ensure output branch exists
         run: |
           git fetch origin ${{env.MY_BRANCH}}:${{env.MY_BRANCH}}
           git checkout ${{env.MY_BRANCH}} || git checkout -b ${{env.MY_BRANCH}}
         env:
           MY_BRANCH: output
-
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
@@ -56,11 +43,8 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
@@ -80,7 +64,6 @@ jobs:
           MY_BRANCH: output
           MASTER_REPO: https://github.com/davidgao7/davidgao7.git
           MASTER_BRANCH: main
-
       - name: Merge output branch to main
         run: |
           echo '\n==============config user info===============\n'
@@ -97,7 +80,7 @@ jobs:
           git merge --allow-unrelated-histories --no-ff -X theirs ${{env.MY_BRANCH}} -m "Merge output branch to main"
           echo current branch: '\n' $(git branch -vva)
           echo '\n==============pull changes from origin main========\n'
-          git pull origin ${{env.MASTER_BRANCH}}
+          git pull --rebase origin ${{env.MASTER_BRANCH}}
           echo '\n==============add new files from origin main========\n'
           git add .
           echo '\n========start push================\n'
