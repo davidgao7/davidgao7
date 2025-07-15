@@ -51,7 +51,7 @@ def generate_blog_posts_markdown(soup):
             formatted_datetime = pub_date_str.split(' ')[0] if ' ' in pub_date_str else pub_date_str # Attempt to get just date if possible
 
         # New format: `date time [title](link)`
-        posts_markdown.append(f"{formatted_datetime} [{title}]({link})")
+        posts_markdown.append(f"{formatted_datetime} [{title}]({link})\n")
 
     return "\n".join(posts_markdown)
 
