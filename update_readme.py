@@ -61,8 +61,8 @@ def update_readme(new_content):
         with open(README_FILE, 'r', encoding='utf-8') as f:
             readme_lines = f.readlines()
 
-        start_marker = ''
-        end_marker = ''
+        start_marker = '<!-- BLOG_POSTS_START -->'
+        end_marker = '<!-- BLOG_POSTS_END -->'
 
         start_index = -1
         end_index = -1
