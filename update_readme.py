@@ -42,10 +42,14 @@ def generate_blog_posts_markdown(soup, latest_n = 10):
 
         title = title_tag.text if title_tag else "No Title"
         link = link_tag.text if link_tag else "#"
-        link = "https://" + link if "https://" not in link or "http://" not in link else link  # Ensure link starts with https://
-        print("==========link========")
+        print("=====link raw=======")
         print(link)
-        print("==========link========")
+        print("=====link raw=======")
+
+
+        # print("==========link========")
+        # print(link)
+        # print("==========link========")
         pub_date_str = pubdate_tag.text if pubdate_tag else ""
 
         # Format the date and time as 'YYYY-MM-DD HH:MM:SS'
