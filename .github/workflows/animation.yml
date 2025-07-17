@@ -66,30 +66,30 @@ jobs:
           MASTER_BRANCH: main
       - name: Merge output branch to main
         run: |
-          echo '\n==============config user info===============\n'
+          # Configure Git user for the commit
           git config --global user.email "gao.ten@northeastern.edu"
           git config --global user.name "David Gao"
-          echo '\n==============config user info===============\n'
-          # Fetch the latest state of all remote branches again, crucial after ghaction-github-pages push
+
+          # Fetch the latest state of all remote branches, crucial after ghaction-github-pages push
           git fetch origin
-          echo '\n===============checkout master branch==========\n'
+
+          # Checkout main branch to perform merge
           git checkout ${{env.MASTER_BRANCH}}
-          echo '\n===============fetch new changes on branch========\n'
+
+          # Pull latest changes from origin/main (your manual updates)
           git pull origin ${{env.MASTER_BRANCH}} --rebase=false || true
+
           # Merge the 'output' branch (which now has the new SVGs from the previous step) into 'main'
-          # This brings the generated SVG files into main
-          # -X theirs prefers the 'output' branch's version for conflicts over SVGs
           git merge --allow-unrelated-histories --no-ff -X theirs origin/${{env.MY_BRANCH}} -m "Merge generated SVG from output branch (workflow ${{ github.run_id }})"
 
           # Check if there are any changes to push (from the merge)
-          # This compares local main with origin/main
-          if git diff --exit-code origin/${{env.MASTER_BRANCH}} > /dev/null; then
+          if git diff --exit-code origin/${{env.MASTER_BRANCH}}; then
             echo "No new changes from merge. Skipping push."
           else
-            # Push the combined changes (SVG update + any pulled external changes) to origin/main
             git push origin ${{env.MASTER_BRANCH}}
             echo "Merged output branch into main and pushed combined changes."
           fi
         env:
           MY_BRANCH: output
           MASTER_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
