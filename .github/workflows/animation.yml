@@ -70,21 +70,26 @@ jobs:
           git config --global user.email "gao.ten@northeastern.edu"
           git config --global user.name "David Gao"
           echo '\n==============config user info===============\n'
-          echo '\n==============add new file==================\n'
-          git add .
-          git commit -m 'commit updated changes'
-          echo '\n==============add new file==================\n'
+          # Fetch the latest state of all remote branches again, crucial after ghaction-github-pages push
+          git fetch origin
           echo '\n===============checkout master branch==========\n'
           git checkout ${{env.MASTER_BRANCH}}
-          echo '\n==============merge new svg file from output branch========\n'
-          git merge --allow-unrelated-histories --no-ff -X theirs ${{env.MY_BRANCH}} -m "Merge output branch to main"
-          echo current branch: '\n' $(git branch -vva)
-          echo '\n==============pull changes from origin main========\n'
-          git pull --rebase origin ${{env.MASTER_BRANCH}}
-          echo '\n==============add new files from origin main========\n'
-          git add .
-          echo '\n========start push================\n'
-          git push origin ${{env.MASTER_BRANCH}}
+          echo '\n===============fetch new changes on branch========\n'
+          git pull origin ${{env.MASTER_BRANCH}} --rebase=false || true
+          # Merge the 'output' branch (which now has the new SVGs from the previous step) into 'main'
+          # This brings the generated SVG files into main
+          # -X theirs prefers the 'output' branch's version for conflicts over SVGs
+          git merge --allow-unrelated-histories --no-ff -X theirs origin/${{env.MY_BRANCH}} -m "Merge generated SVG from output branch (workflow ${{ github.run_id }})"
+
+          # Check if there are any changes to push (from the merge)
+          # This compares local main with origin/main
+          if git diff --exit-code origin/${{env.MASTER_BRANCH}} > /dev/null; then
+            echo "No new changes from merge. Skipping push."
+          else
+            # Push the combined changes (SVG update + any pulled external changes) to origin/main
+            git push origin ${{env.MASTER_BRANCH}}
+            echo "Merged output branch into main and pushed combined changes."
+          fi
         env:
           MY_BRANCH: output
           MASTER_BRANCH: main
