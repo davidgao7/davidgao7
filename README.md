@@ -30,6 +30,8 @@ Happy Coding!
 ### Latest Blog Posts
 
 <!-- BLOG_POSTS_START -->
+2025-07-31 12:36:55 [Hyprland Rice](http://davidgao7.github.io/posts/hyprland-rice/)
+
 2025-07-21 22:11:29 [Install Hyprland](http://davidgao7.github.io/posts/install-hyprland/)
 
 2025-07-14 13:59:09 [Install Arch Linux Btw](http://davidgao7.github.io/posts/install-arch-linux-btw/)
@@ -47,8 +49,6 @@ Happy Coding!
 2025-04-22 11:14:45 [VLLM Deep Dive](http://davidgao7.github.io/posts/vllm-deep-dive/)
 
 2025-04-19 16:59:26 [Finetune LLM Locally Using MLX](http://davidgao7.github.io/posts/finetune-llm-locally-using-mlx/)
-
-2025-04-13 15:13:29 [LLM Production](http://davidgao7.github.io/posts/llm-production/)
 <!-- BLOG_POSTS_END -->
 
 ### My contribution graph
