@@ -30,6 +30,8 @@ Happy Coding!
 ### Latest Blog Posts
 
 <!-- BLOG_POSTS_START -->
+2025-08-10 21:02:25 [When the Great Wall Ends](http://davidgao7.github.io/posts/when-the-great-wall-ends/)
+
 2025-07-31 12:36:55 [Hyprland Rice](http://davidgao7.github.io/posts/hyprland-rice/)
 
 2025-07-21 22:11:29 [Install Hyprland](http://davidgao7.github.io/posts/install-hyprland/)
@@ -47,8 +49,6 @@ Happy Coding!
 2025-04-22 21:08:11 [Finetune LLM Using Pytorch](http://davidgao7.github.io/posts/finetune-llm-using-pytorch/)
 
 2025-04-22 11:14:45 [VLLM Deep Dive](http://davidgao7.github.io/posts/vllm-deep-dive/)
-
-2025-04-19 16:59:26 [Finetune LLM Locally Using MLX](http://davidgao7.github.io/posts/finetune-llm-locally-using-mlx/)
 <!-- BLOG_POSTS_END -->
 
 ### My contribution graph
