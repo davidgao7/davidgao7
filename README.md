@@ -30,25 +30,25 @@ Happy Coding!
 ### Latest Blog Posts
 
 <!-- BLOG_POSTS_START -->
-2025-08-13 15:48:06 [Test Github Action Yourself](http://davidgao7.github.io/posts/test-github-action-yourself/)
+2025-08-19 02:02:46 [Font Render](https://davidgao7.github.io/posts/font-render/)
 
-2025-08-10 21:02:25 [When the Great Wall Ends](http://davidgao7.github.io/posts/when-the-great-wall-ends/)
+2025-08-13 15:48:06 [Test Github Action Yourself](https://davidgao7.github.io/posts/test-github-action-yourself/)
 
-2025-07-31 12:36:55 [Hyprland Rice](http://davidgao7.github.io/posts/hyprland-rice/)
+2025-08-10 21:02:25 [When the Great Wall Ends](https://davidgao7.github.io/posts/when-the-great-wall-ends/)
 
-2025-07-21 22:11:29 [Install Hyprland](http://davidgao7.github.io/posts/install-hyprland/)
+2025-07-31 12:36:55 [Hyprland Rice](https://davidgao7.github.io/posts/hyprland-rice/)
 
-2025-07-14 13:59:09 [Install Arch Linux Btw](http://davidgao7.github.io/posts/install-arch-linux-btw/)
+2025-07-21 22:11:29 [Install Hyprland](https://davidgao7.github.io/posts/install-hyprland/)
 
-2025-05-30 13:49:26 [Vllm V1 Whisper Transcription](http://davidgao7.github.io/posts/vllm-v1-whisper-transcription/)
+2025-07-14 13:59:09 [Install Arch Linux Btw](https://davidgao7.github.io/posts/install-arch-linux-btw/)
 
-2025-05-10 02:30:34 [Wrong Vllm Production Stack Setup](http://davidgao7.github.io/posts/wrong-vllm-production-stack-setup/)
+2025-05-30 13:49:26 [Vllm V1 Whisper Transcription](https://davidgao7.github.io/posts/vllm-v1-whisper-transcription/)
 
-2025-05-03 18:38:09 [Palindrome Linked List](http://davidgao7.github.io/posts/palindrome-linked-list/)
+2025-05-10 02:30:34 [Wrong Vllm Production Stack Setup](https://davidgao7.github.io/posts/wrong-vllm-production-stack-setup/)
 
-2025-04-23 22:34:35 [Training Resnet Using Pytorch](http://davidgao7.github.io/posts/training-resnet-using-pytorch/)
+2025-05-03 18:38:09 [Palindrome Linked List](https://davidgao7.github.io/posts/palindrome-linked-list/)
 
-2025-04-22 21:08:11 [Finetune LLM Using Pytorch](http://davidgao7.github.io/posts/finetune-llm-using-pytorch/)
+2025-04-23 22:34:35 [Training Resnet Using Pytorch](https://davidgao7.github.io/posts/training-resnet-using-pytorch/)
 <!-- BLOG_POSTS_END -->
 
 ### My contribution graph
