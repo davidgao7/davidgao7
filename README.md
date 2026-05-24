@@ -30,6 +30,8 @@ Happy Coding!
 ### Latest Blog Posts
 
 <!-- BLOG_POSTS_START -->
+2026-05-23 21:18:11 [Arch Hyprland Nvidia Blackwell](http://davidgao7.github.io/posts/arch-hyprland-nvidia-blackwell/)
+
 2026-04-18 12:55:36 [Modelscope Support Vllm Metal](http://davidgao7.github.io/posts/modelscope-support-vllm-metal/)
 
 2025-08-19 02:02:46 [Font Render](http://davidgao7.github.io/posts/font-render/)
@@ -47,8 +49,6 @@ Happy Coding!
 2025-05-30 13:49:26 [Vllm V1 Whisper Transcription](http://davidgao7.github.io/posts/vllm-v1-whisper-transcription/)
 
 2025-05-10 02:30:34 [Wrong Vllm Production Stack Setup](http://davidgao7.github.io/posts/wrong-vllm-production-stack-setup/)
-
-2025-05-03 18:38:09 [Palindrome Linked List](http://davidgao7.github.io/posts/palindrome-linked-list/)
 <!-- BLOG_POSTS_END -->
 
 ### My contribution graph
